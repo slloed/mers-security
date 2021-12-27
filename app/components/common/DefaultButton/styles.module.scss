@@ -1,0 +1,9 @@
+@import 'assets/styles/util/colors';
+
+.button {
+  background-color: $buttonColor;
+  width: 211px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+}

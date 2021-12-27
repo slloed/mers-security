@@ -1,0 +1,31 @@
+@import 'assets/styles/util/fonts.scss';
+@import 'assets/styles/util/colors.scss';
+
+.background {
+  width: 100vw;
+  min-height: 595px;
+  background-color: $layoutColor;
+  background-image: url("../../../../../assets/images/home/background.png") ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  & .textBlock {
+    padding-top: 60px;
+    max-width: 657px;
+  }
+
+
+  &.h1 {
+
+  }
+
+  .p {
+
+  }
+
+  & button {
+    color: #eaeaea;
+  }
+}
+
+
