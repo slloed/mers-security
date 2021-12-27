@@ -5,6 +5,7 @@ import RecommendationsContainer from "../components/pages/Home/Recommendations/c
 import ArticlesContainer from "../components/pages/Home/Articles/containers/ArticlesContainer";
 import ProductContainer from "../components/pages/Home/Product/containers/ProductContainer";
 import FeedbackContainer from "../components/pages/Home/Feedback/containers/FeedbackContainer";
+import ContactUsContainer from "../components/pages/Home/ContactUs/containers/ContactUsContainer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ArticlesContainer />
       <ProductContainer />
       <FeedbackContainer />
+      <ContactUsContainer />
     </>
   );
 };

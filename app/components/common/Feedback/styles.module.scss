@@ -1,0 +1,16 @@
+@import 'assets/styles/util/fonts.scss';
+@import 'assets/styles/util/colors.scss';
+
+.feedbackBlock {
+  width: 1083px;
+  background-color: #F8F8F8;
+  border: 1px solid #E2E2E2;
+}
+
+.avatar {
+  background-color: #FF8C82;
+}
+
+ .MuiAvatar-fallback {
+  color: #3D3D3D;
+}

@@ -1,2 +1,11 @@
 @import 'assets/styles/util/fonts.scss';
 @import 'assets/styles/util/colors.scss';
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback {
+  margin-bottom: 20px;
+}
