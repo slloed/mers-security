@@ -1,0 +1,34 @@
+@import 'assets/styles/util/fonts.scss';
+@import 'assets/styles/util/colors.scss';
+
+.wrapper {
+  margin-bottom: 133px;
+}
+.box {
+  width: 100%;
+  height: 455px;
+  border: 1px solid #C8C8C8 ;
+  display: flex;
+  justify-content: space-between;
+  & article {
+    max-width: 780px;
+    & .button {
+      width: 282px;
+      height: 75px;
+      background-color: $productBackground;
+      color: white;
+      border-radius: 85px;
+    }
+  }
+  & .imageBlock {
+    background-color: $productBackground;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+    & .image {
+    }
+
+  }
+}
