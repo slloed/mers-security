@@ -1,18 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-import { Container } from "@material-ui/core";
+import styles from "./styles.module.scss";
 
 const Wrapper = ({ children, className }) => {
   return (
-    <Container className={className} maxWidth="xl">
+    <div className={`${styles.wrapper} ${className}`}>
       {children}
-    </Container>
+    </div>
   );
-};
-
-Container.propTypes = {
-  children: PropTypes.element.isRequired,
 };
 
 export default Wrapper;
