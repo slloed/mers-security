@@ -1,0 +1,52 @@
+@import 'assets/styles/util/colors';
+
+.section {
+  margin-top: 32px;
+}
+
+.section-heading {
+  color: $grayColor;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.subheading {
+  color: $lightGrayColor;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.option{
+  color: $darkGrayColor;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.delivery-options {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  row-gap: 26px;
+  place-items: start start;
+}
+
+.delivery-option {
+  display: grid;
+  row-gap: 16px;
+  color: $grayColor;
+  font-weight: 300;
+
+  & h4{
+    font-weight: 400;
+    margin-bottom: -4px;
+  }
+
+  & li{
+    margin-bottom: 6px;
+  }
+
+  &:nth-of-type(3) {
+    grid-row: 1 / span 2;
+  }
+}
