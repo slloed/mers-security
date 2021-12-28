@@ -1,4 +1,3 @@
-import { Typography } from "@material-ui/core";
 import Wrapper from "../../components/common/Wrapper";
 import styles from "./styles.module.scss"
 
