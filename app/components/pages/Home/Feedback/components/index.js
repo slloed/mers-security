@@ -14,6 +14,7 @@ const FeedbackLayout = () => {
         <Box>
           {data.map((card) => (
             <Feedback
+              key={card.product}
               className={styles.feedback}
               description={card.description}
               author={card.author}

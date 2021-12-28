@@ -13,7 +13,7 @@ const LowerHeadContainer = () => {
       name: "Популярные категории",
     },
     {
-      name: "Рекомпндуемые товары",
+      name: "Рекомендуемые товары",
     },
   ];
   return <LowerHead links={list} />;

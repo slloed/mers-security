@@ -9,7 +9,7 @@ const LowerHead = ({ links }) => {
     <Wrapper className={styles.wrapper}>
       <ul className={styles.list}>
         {links.map((link) => (
-          <li>{link.name}</li>
+          <li key={link.name}>{link.name}</li>
         ))}
       </ul>
     </Wrapper>

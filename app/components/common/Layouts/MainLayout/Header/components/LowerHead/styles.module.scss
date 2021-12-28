@@ -5,15 +5,15 @@
 
 .list {
   display: flex;
-  justify-content: space-between;
   list-style: none;
-  max-width: 1280px;
   cursor: pointer;
-  font-family: PT Root UI, sans-serif;
-  font-style: normal;
-  font-weight: bold;
   font-size: 22px;
   line-height: 28px;
   color: #3D3D3D;
   margin-bottom: 20px;
+  font-weight: 600;
+
+  & li{
+    margin-right: 48px;
+  }
 }
