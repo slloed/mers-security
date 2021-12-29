@@ -1,0 +1,79 @@
+@import 'assets/styles/util/colors';
+
+
+.heading {
+  color: $grayColor;
+  margin-bottom: 26px;
+  margin-top: 38px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section {
+  width: 48%;
+  display: inline-grid;
+  row-gap: 16px;
+  justify-content: start;
+  margin-bottom: 50px;
+
+  &:first-of-type {
+    margin-right: 24px;
+  }
+  & div {
+    max-width: 560px;
+  }
+}
+
+.section-heading {
+  color: $layoutColor;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.history-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 76px;
+  column-gap: 24px;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+
+.history-point {
+  display: grid;
+  grid-template-rows: auto  1fr;
+}
+
+.year {
+  font-size: 90px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  opacity: 40%;
+}
+
+.description{
+    max-width: 350px;
+    &::first-line {
+      font-weight: 500;
+  }
+}
+
+@media (max-width:768px){
+  .section {
+    display: inline-grid;
+    width: 100%;
+    &:first-of-type {
+      margin-right: 0;
+    }
+    & div {
+      max-width: 100%;
+    }
+  }
+
+  .history-grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 28px;
+    column-gap: 28px;
+    margin-top: 24px;
+  }
+}
