@@ -5,8 +5,9 @@ import location from "../../../../../../../assets/images/location.svg";
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import Wrapper from "../../../../../Wrapper/index";
+import { data } from "./data";
 
-const TopHead = ({ links, contacts }) => {
+const TopHead = ({ contacts }) => {
   return (
     <div className={styles.top}>
       <Wrapper className={styles.tool}>
@@ -15,7 +16,7 @@ const TopHead = ({ links, contacts }) => {
           <span>Москва, Митино</span>
         </div>
         <div className={styles.linksContainer}>
-          {links.map((link) => (
+          {data.map((link) => (
             <Link key={uuid4()} href={link.destination}>
               <a className={styles.link}>{link.name}</a>
             </Link>

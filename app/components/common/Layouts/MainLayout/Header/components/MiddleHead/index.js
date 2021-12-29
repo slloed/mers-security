@@ -14,14 +14,14 @@ const MiddleHead = () => {
       <Link href="/">
         <Image src={logo} alt="logo" />
       </Link>
-      <div className={styles.search}>
+      <Box className={styles.search}>
         <InputBase className={styles.input} placeholder={"Поиск..."} />
         <Image src={search} alt="" />
-      </div>
-      <div className={styles.cart}>
+      </Box>
+      <Box className={styles.cart}>
         <Image src={cart} alt="cart" />
         <span>Корзина</span>
-      </div>
+      </Box>
     </Wrapper>
   );
 };

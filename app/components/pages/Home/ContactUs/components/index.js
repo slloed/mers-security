@@ -4,11 +4,7 @@ import ContactForm from "../../../../common/ContactForm";
 import Wrapper from "../../../../common/Wrapper";
 
 const ContactUs = () => {
-  return (
-    <Wrapper>
-      <ContactForm />
-    </Wrapper>
-  );
+  return <ContactForm />;
 };
 
 ContactUs.propTypes = {};

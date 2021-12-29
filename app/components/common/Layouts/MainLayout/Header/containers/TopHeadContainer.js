@@ -37,7 +37,7 @@ const TopHeadContainer = () => {
 
   const values = Object.values(contacts);
 
-  return <TopHead links={links} contacts={values} />;
+  return <TopHead contacts={values} />;
 };
 
 export default TopHeadContainer;
