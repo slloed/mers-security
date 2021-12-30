@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Wrapper from "../../components/common/Wrapper";
-import { about, philosophy, storyPoints } from "./data";
-import picture from "../../assets/images/about.jpg"
-import picture2 from "../../assets/images/about2.jpg"
-import styles from "./styles.module.scss"
+import { about, philosophy, storyPoints } from "../../components/pages/About/data";
+import picture from "../../assets/images/about.jpg";
+import picture2 from "../../assets/images/about2.jpg";
+import styles from "./styles.module.scss";
 
 const About = () => {
   return (

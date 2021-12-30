@@ -5,12 +5,18 @@ import Feedback from "../../../../common/Feedback";
 import { data } from "./data";
 import { Box } from "@material-ui/core";
 import styles from "./styles.module.scss";
+import Link from "next/link";
 
 const FeedbackLayout = () => {
   return (
     <Wrapper>
       <Box className={styles.comments}>
-        <h3>Отзывы наших покупателей</h3>
+        <div className={styles.block}>
+          <h3 className={styles.title}>Отзывы наших покупателей</h3>
+          <Link href="/">
+            <a className={styles.open}>Посмотреть следующие отзывы</a>
+          </Link>
+        </div>
         <Box>
           {data.map((card) => (
             <Feedback

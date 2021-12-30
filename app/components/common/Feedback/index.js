@@ -3,16 +3,19 @@ import PropTypes from "prop-types";
 import { Avatar, Box } from "@material-ui/core";
 import styles from "./styles.module.scss";
 import Rating from "@material-ui/lab/Rating";
-import Link from "next";
+import Link from "next/link";
 const Feedback = ({ author, productName, description, className }) => {
   return (
-    <Box className={`${className} ${styles.feedbackBlock}`}>
+    <div className={`${className} ${styles.feedbackBlock}`}>
       <Avatar className={styles.avatar} />
-      <p>{author}</p>
-      <p>отзыв на товар </p> <p>{productName}</p>
-      {description}
-      <Rating name="read-only" value={5} readOnly />
-    </Box>
+      <div>
+        <h3 className={styles.author}>{author}</h3>
+        <p className={styles.productName}>отзыв на товар {productName}</p>
+        <p>{description}</p>
+      </div>
+
+      <Rating name="read-only" value={5} readOnly className={styles.rating} />
+    </div>
   );
 };
 

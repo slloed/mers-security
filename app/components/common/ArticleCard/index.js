@@ -23,7 +23,7 @@ const ArticleCard = ({ title, image, text, left, bigImage }) => {
           </Button>
         </div>
         <div className={styles.image} >
-          <Image src={image} width="668" height="444" />
+          <Image src={image} width="668" height="446" />
         </div>
       </div>
       <Modal open={open} onClose={handleClose} className={styles.modal}>
