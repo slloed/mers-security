@@ -6,11 +6,9 @@ import Link from "next/link";
 const Block = ({ children, color, linkTitle, to }) => {
   return (
     <Box className={styles.block} style={{ backgroundColor: `${color}` }}>
-      <Typography className={styles.link}>
-        <Link href={{ to }}>
-          <a>{linkTitle}</a>
-        </Link>
-      </Typography>
+      <Link href={{ to }}>
+        <a className={styles.link}>{linkTitle}</a>
+      </Link>
       {children}
     </Box>
   );
