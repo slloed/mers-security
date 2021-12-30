@@ -9,10 +9,9 @@ import product from "../../../../../assets/images/home/product.png";
 const Product = () => {
   return (
     <Wrapper className={styles.wrapper}>
-      <Box className={styles.box}>
-        <article>
-          <h3>Элитные противоугонные комплексы StarLine</h3>
-
+      <div className={styles.box}>
+        <div className={styles.article}>
+          <h3 className={styles.title}>Элитные противоугонные комплексы StarLine</h3>
           <p>
             Используются для защиты дорогих транспортных средств, отличаются
             высокой надежностью и простотой в управлении.
@@ -22,16 +21,16 @@ const Product = () => {
             2Slave с широчайшими противоугонными возможностями.
           </p>
 
-          <p> цена от</p>
+          <p>Цена от</p>
           <Button className={styles.button} variant={"contained"}>
             {" "}
             28.300 RUB
           </Button>
-        </article>
+        </div>
         <Box className={styles.imageBlock}>
           <Image className={styles.image} src={product} />
         </Box>
-      </Box>
+      </div>
     </Wrapper>
   );
 };
