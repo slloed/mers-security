@@ -1,0 +1,31 @@
+@import '../../../assets/styles/util/fonts';
+@import '../../../assets/styles/util/colors';
+
+.card {
+  height: 420px;
+  border: 1px solid hsl(0, 0%, 92%);
+  padding: 24px;
+  display: grid;
+  grid-template-rows: 1fr repeat(4, auto);
+  row-gap: 10px;
+  justify-items: center;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 300;
+  color: #585858;
+}
+
+.price {
+  font-size: 20px;
+  color: #525252;
+  font-weight: 700;
+  margin: 20px auto;
+}
+
+.link {
+  font-size: 16px;
+  color: #3d3d3d;
+  text-decoration: underline;
+}

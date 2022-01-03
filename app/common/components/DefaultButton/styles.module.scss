@@ -1,0 +1,9 @@
+@import '../../../assets/styles/util/colors';
+
+.button {
+  background-color: $buttonColor;
+  color: white;
+  padding: 10px 26px;
+  border: none;
+  border-radius: 25px;
+}

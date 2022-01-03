@@ -1,6 +1,6 @@
 import "../assets/styles/global.scss";
 import { StylesProvider } from "@material-ui/core";
-import MainLayout from "../components/common/Layouts/MainLayout";
+import MainLayout from "../common/components/Layouts/MainLayout";
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -1,0 +1,21 @@
+@import '../../../assets/styles/util/fonts';
+@import '../../../assets/styles/util/colors';
+
+.item {
+  display: flex;
+  text-decoration: none;
+  padding: 9px 0;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0;
+
+  &:hover {
+  }
+
+  &.active {
+  }
+}
+
